@@ -29,7 +29,7 @@ else{
     } while(numeroDeOutrasTentativas < 3)
 
     if(numeroDeOutrasTentativas >= 3){
-        alert(`Que pena, você não conseguiu adivinhar! O número que eu pensado era ${numeroPensado}!`);
+        alert(`Que pena, você não conseguiu adivinhar! O número que eu tinha pensado era ${numeroPensado}!`);
         return;
     }
 }
